@@ -1,12 +1,12 @@
-# Alex Ionescu - Portfolio Personal
+# Raicici Radovan - Portfolio Personal
 
 Site de prezentare personală realizat cu **React** și **Tailwind CSS**, conectat la **Strapi CMS** și găzduit pe **Netlify**.
 
 ## 🌐 Link-uri
 
-- **Site live:** https://alexionescu.netlify.app
-- **Strapi CMS:** https://alexionescu-strapi.strapiapp.com
-- **Repository GitHub:** https://github.com/echipa-XX-3ie26-proiect2
+- **Site live:** https://echipa-15-3ie26-proiect2.netlify.app/
+- **Strapi CMS:** https://raicici-radovan.strapiapp.com
+- **Repository GitHub:** https://github.com/echipa-15-3ie26-proiect2
 
 ## 📄 Pagini
 
@@ -55,8 +55,8 @@ Site de prezentare personală realizat cu **React** și **Tailwind CSS**, conect
 
 ```bash
 # Clonare repository
-git clone https://github.com/echipa-XX-3ie26-proiect2.git
-cd echipa-XX-3ie26-proiect2
+git clone https://github.com/echipa-15-3ie26-proiect2.git
+cd echipa-15-3ie26-proiect2
 
 # Instalare dependențe
 npm install

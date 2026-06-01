@@ -9,33 +9,45 @@ function AnimatedSection({ children, className = '' }) {
 
 const timeline = [
   {
+    year: '2024',
+    title: 'Formarea Echipei 15',
+    desc: 'Ne-am unit ca echipă pentru proiectul universitar, combinând abilități de frontend, backend și design.',
+    icon: '👥',
+  },
+  {
+    year: '2024',
+    title: 'Inițializare proiect',
+    desc: 'Configurare Vite, Tailwind CSS și structură de proiect pentru dezvoltare colaborativă.',
+    icon: '⚙️',
+  },
+  {
+    year: '2025',
+    title: 'Dezvoltare & Deploy',
+    desc: 'Implementare pagini, integrare servicii și publicare pe Netlify (SPA).' ,
+    icon: '🚀',
+  },
+  {
     year: '2022',
-    title: 'Admis la UVT',
-    desc: 'Încep Facultatea de Economie si Administrare a Afacerilor, specializarea Informatică-economica',
+    title: 'Primele proiecte web',
+    desc: 'Descoperirea dezvoltării web și lucrul la primele proiecte practice.',
     icon: '🎓',
   },
   {
     year: '2023',
-    title: 'Primul proiect web',
-    desc: 'Construiesc primul site complet cu HTML, CSS și JavaScript vanilla.',
+    title: 'Colaborări timpurii',
+    desc: 'Inițierea colaborărilor între studenți și prototipuri comune.',
     icon: '💻',
   },
   {
-    year: '2023',
-    title: 'Descopăr React',
-    desc: 'Mă îndrăgostesc de componentele React și încep să construiesc aplicații mai complexe.',
-    icon: '⚛️',
-  },
-  {
     year: '2024',
-    title: 'Backend cu Node.js',
-    desc: 'Extind cunoștințele spre backend, construiesc REST API-uri și lucrez cu baze de date.',
-    icon: '🔧',
+    title: 'Stack modern adoptat',
+    desc: 'React, Vite și Tailwind devin fundamentul proiectelor echipei.',
+    icon: '⚛️',
   },
   {
     year: '2025',
     title: 'Proiecte de echipă',
-    desc: 'Colaborez în echipe de 4 studenți pe proiecte academice și personale cu Git + GitHub.',
+    desc: 'Lucrăm colaborativ folosind Git + GitHub pentru livrabile funcționale.',
     icon: '👥',
   },
 ]
@@ -59,52 +71,47 @@ export default function About() {
             {/* Avatar */}
             <div className="lg:col-span-2 flex justify-center animate-fade-in">
               <div className="relative">
-                {/* Avatar placeholder */}
+                {/* Team avatar placeholder */}
                 <div className="w-56 h-56 md:w-72 md:h-72 rounded-2xl bg-gradient-to-br from-brand-400 to-brand-600 flex items-center justify-center shadow-2xl shadow-brand-500/30">
-                  <span className="font-display font-black text-white text-8xl">A</span>
+                  <span className="font-display font-black text-white text-6xl">E15</span>
                 </div>
                 {/* Status badge */}
                 <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-full px-4 py-2 flex items-center gap-2 shadow-lg whitespace-nowrap">
                   <span className="w-2.5 h-2.5 bg-green-500 rounded-full animate-pulse" />
-                  <span className="font-mono text-sm text-slate-700 dark:text-slate-300">An III, Informatică-economica</span>
+                  <span className="font-mono text-sm text-slate-700 dark:text-slate-300">Universitatea de Vest Timișoara — Echipa 15</span>
                 </div>
               </div>
             </div>
 
-            {/* Bio */}
+            {/* Team Bio */}
             <div className="lg:col-span-3 animate-slide-up">
-              <p className="font-mono text-brand-500 text-sm mb-3">// despre_mine.json</p>
+              <p className="font-mono text-brand-500 text-sm mb-3">// despre_echipa.json</p>
               <h1 className="section-title text-slate-900 dark:text-white">
-                Salut! Sunt <span className="text-brand-500">Raicici Radovan</span>
+                Suntem <span className="text-brand-500">Echipa 15</span>
               </h1>
               <div className="space-y-4 font-body text-slate-600 dark:text-slate-300 leading-relaxed">
                 <p>
-                  Sunt student în anul III la <strong className="text-slate-800 dark:text-white">Facultatea de Economie si Administrare a Afacerilor </strong>, 
-                  specializarea Informatică-economica, din cadrul <strong className="text-slate-800 dark:text-white">Universității de Vest Timișoara</strong>.
+                  Un grup de studenți care colaborează pentru a livra un proiect full-stack: front-end în React, stilizare cu Tailwind, integrare headless CMS (Strapi) și deploy pe Netlify.
                 </p>
                 <p>
-                  Mă fascinează felul în care codul poate transforma idei abstracte în produse reale, folosite de oameni reali. 
-                  De la un simplu script Python la o aplicație web completă — procesul de construire mă entuziasmează constant.
-                </p>
-                <p>
-                  În afara programului academic, contribui la proiecte open-source, particip la hackathon-uri locale 
-                  și încerc să scriu articole despre ceea ce am învățat, pentru comunitatea studențească.
+                  Fiecare membru aduce competențe specifice — frontend, design, QA și backend — iar împreună am construit și documentat acest site pentru prezentarea echipei și a proiectelor noastre.
                 </p>
               </div>
 
               <div className="mt-8 flex flex-wrap gap-3">
                 <a
-                  href="/cv-alex-ionescu.pdf"
+                  href="https://github.com/Radovan04/echipa-15-3ie26-proiect2"
                   className="btn-primary inline-flex items-center gap-2"
-                  download
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 2l2 4 4 .5-3 2 1 4-4-2-4 2 1-4-3-2 4-.5z" />
                   </svg>
-                  Descarcă CV
+                  Vezi repository
                 </a>
-                <a href="https://github.com/alexionescu" target="_blank" rel="noopener noreferrer" className="btn-outline">
-                  GitHub
+                <a href="/contact" className="btn-outline">
+                  Contact
                 </a>
               </div>
             </div>
@@ -134,9 +141,9 @@ export default function About() {
       <section className="py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <AnimatedSection>
-            <h2 className="section-title text-center">Domeniile mele de interes</h2>
+            <h2 className="section-title text-center">Domeniile noastre de interes</h2>
             <p className="section-subtitle text-center mx-auto">
-              Temele care mă țin treaz noaptea (în sens bun).
+              Temele care ne inspiră ca echipă.
             </p>
           </AnimatedSection>
 
@@ -157,8 +164,8 @@ export default function About() {
       <section className="py-16 bg-slate-50 dark:bg-slate-800/30">
         <div className="max-w-3xl mx-auto px-4 sm:px-6">
           <AnimatedSection>
-            <h2 className="section-title text-center">Parcursul meu</h2>
-            <p className="section-subtitle text-center mx-auto">Câteva momente importante din călătoria mea.</p>
+            <h2 className="section-title text-center">Parcursul nostru</h2>
+            <p className="section-subtitle text-center mx-auto">Repere importante ale muncii echipei.</p>
           </AnimatedSection>
 
           <div className="relative mt-12">
@@ -193,14 +200,14 @@ export default function About() {
       <section className="py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <AnimatedSection>
-            <h2 className="section-title text-center">Fun facts despre mine</h2>
+            <h2 className="section-title text-center">Fun facts despre echipă</h2>
           </AnimatedSection>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-10">
             {[
-              { icon: '☕', value: '2-3', label: 'cafele pe zi' },
-              { icon: '💻', value: '6h+', label: 'programare zilnic' },
-              { icon: '📚', value: '12', label: 'cărți citite în 2024' },
-              { icon: '🏃', value: '5km', label: 'alerg de 3x/săptămână' },
+              { icon: '👥', value: '3', label: 'membri în echipă' },
+              { icon: '📦', value: '1', label: 'repository principal' },
+              { icon: '🛠️', value: 'React + Strapi', label: 'tech stack' },
+              { icon: '🚀', value: 'Netlify', label: 'hosting' },
             ].map(({ icon, value, label }) => (
               <AnimatedSection key={label}>
                 <div className="card text-center">

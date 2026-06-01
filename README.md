@@ -5,7 +5,7 @@ Site de prezentare personală realizat cu **React 18** și **Tailwind CSS v3**, 
 ## 🚀 Link-uri Proiect
 
 - **Site Live (Netlify):** https://echipa-15-3ie26-proiect2.netlify.app/
-- **Repository GitHub:** https://github.com/echipa-15-3ie26-proiect2
+- **Repository GitHub:** https://github.com/Radovan04/echipa-15-3ie26-proiect2
 - **Configurație Temă (tweakcn.com):** [Link Temă Tweakcn Personalizată](https://tweakcn.com/editor/theme?theme=candyland)
 
 ## 📄 Structură Pagini și Layout-uri

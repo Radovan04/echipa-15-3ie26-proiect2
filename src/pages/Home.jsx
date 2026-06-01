@@ -106,24 +106,24 @@ export default function Home() {
               </div>
 
               <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-black text-slate-900 dark:text-white leading-tight mb-6">
-                Bună, sunt{' '}
+                Bună, suntem{' '}
                 <span className="text-brand-500 relative">
-                Radovan 
+                Echipa 15
                   <svg className="absolute -bottom-2 left-0 w-full" viewBox="0 0 200 12" fill="none">
                     <path d="M2 8 Q100 2 198 8" stroke="#f59e0b" strokeWidth="3" strokeLinecap="round"/>
                   </svg>
                 </span>
                 <br />
-                <span className="text-slate-500 dark:text-slate-400 text-4xl md:text-5xl">Student Developer</span>
+                <span className="text-slate-500 dark:text-slate-400 text-4xl md:text-5xl">Studenți Informatică</span>
               </h1>
 
               <p className="font-body text-lg text-slate-600 dark:text-slate-300 leading-relaxed mb-8 max-w-lg">
-                Studiez Informatica-economica <strong className="text-brand-600 dark:text-brand-400">UVT Timișoara</strong> și construiesc aplicații web moderne. Pasionat de React, Node.js și machine learning.
+                Studiem Informatica-economica <strong className="text-brand-600 dark:text-brand-400">UVT Timișoara</strong> și construiesc aplicații web moderne. Pasionat de React, Node.js și machine learning.
               </p>
 
               <div className="flex flex-wrap gap-4">
                 <Link to="/projects" className="btn-primary inline-flex items-center gap-2">
-                  <span>Vezi proiectele</span>
+                  <span>Descoperă proiectele</span>
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                   </svg>
@@ -214,7 +214,7 @@ export default function Home() {
             <div className="text-center mb-12">
               <h2 className="section-title">Tehnologii & Skill-uri</h2>
               <p className="section-subtitle mx-auto">
-                Instrumentele pe care le folosesc zilnic pentru a construi aplicații moderne și performante.
+                Instrumentele pe care le folosim zilnic pentru a construi aplicații moderne și performante.
               </p>
             </div>
           </AnimatedSection>

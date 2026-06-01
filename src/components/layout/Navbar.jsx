@@ -86,10 +86,10 @@ export default function Navbar() {
             {/* Logo */}
             <Link to="/" className="flex items-center gap-2 group">
               <div className="w-9 h-9 bg-brand-500 rounded-lg flex items-center justify-center font-display font-bold text-white text-lg group-hover:bg-brand-600 transition-colors">
-                RR
+                E15
               </div>
               <span className="font-display font-bold text-lg text-slate-800 dark:text-white hidden sm:block">
-                Raicici Radovan
+                Echipa 15
               </span>
             </Link>
 

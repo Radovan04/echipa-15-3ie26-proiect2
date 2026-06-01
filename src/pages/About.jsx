@@ -1,4 +1,6 @@
 import { useScrollAnimation } from '../hooks/useScrollAnimation'
+import team from '../data/team'
+import TeamMember from '../components/TeamMember'
 
 function AnimatedSection({ children, className = '' }) {
   const ref = useScrollAnimation()
@@ -107,6 +109,24 @@ export default function About() {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Echipa */}
+      <section className="py-16 bg-white dark:bg-slate-900">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+          <AnimatedSection>
+            <h2 className="section-title text-center">Echipa</h2>
+            <p className="section-subtitle text-center mx-auto">Cei care au contribuit la acest proiect</p>
+          </AnimatedSection>
+
+          <AnimatedSection>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+              {team.map((member) => (
+                <TeamMember key={member.id} member={member} />
+              ))}
+            </div>
+          </AnimatedSection>
         </div>
       </section>
 

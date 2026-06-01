@@ -5,6 +5,7 @@ import { useTheme } from '../../context/ThemeContext'
 const navLinks = [
   { to: '/', label: 'Acasă' },
   { to: '/about', label: 'Despre' },
+  { to: '/other-devs', label: 'Other Devs' },
   { to: '/projects', label: 'Proiecte' },
   { to: '/blog', label: 'Blog' },
   { to: '/contact', label: 'Contact' },

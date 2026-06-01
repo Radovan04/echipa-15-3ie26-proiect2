@@ -6,6 +6,7 @@ import About from './pages/About'
 import Projects from './pages/Projects'
 import Blog from './pages/Blog'
 import Contact from './pages/Contact'
+import OtherDevs from './pages/OtherDevs'
 
 function ScrollToTop() {
   const { pathname } = window.location
@@ -20,6 +21,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
+            <Route path="/other-devs" element={<OtherDevs />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/contact" element={<Contact />} />
